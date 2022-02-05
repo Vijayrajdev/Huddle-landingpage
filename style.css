@@ -386,31 +386,6 @@ ion-icon:hover {
   .content1 {
     margin-right: 3rem;
   }
-
-  .footer_logo {
-    width: 200px;
-  }
-
-  .footer_images {
-    width: 16px;
-    height: 16px;
-  }
-
-  .footer_name {
-    font-size: medium;
-  }
-
-  .footer_name2 {
-    font-size: medium;
-  }
-
-  .copyright_text {
-    font-size: medium;
-  }
-
-  .creator_text {
-    font-size: medium;
-  }
 }
 
 @media (min-width: 770px) {
@@ -501,5 +476,30 @@ ion-icon:hover {
   .shadow_effect {
     font-size: large;
     padding: 0.7rem 5rem;
+  }
+
+  .footer_logo {
+    width: 200px;
+  }
+
+  .footer_images {
+    width: 16px;
+    height: 16px;
+  }
+
+  .footer_name {
+    font-size: medium;
+  }
+
+  .footer_name2 {
+    font-size: medium;
+  }
+
+  .copyright_text {
+    font-size: medium;
+  }
+
+  .creator_text {
+    font-size: medium;
   }
 }
