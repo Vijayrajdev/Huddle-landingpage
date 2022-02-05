@@ -151,6 +151,33 @@ button:hover {
     -10px -10px 22px -17px rgba(0, 0, 0, 0.1);
 }
 
+.communitycard_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: 3rem 2rem;
+  border-radius: 15px;
+  box-shadow: 10px 12px 22px -17px rgba(0, 0, 0, 0.1),
+    -10px -10px 22px -17px rgba(0, 0, 0, 0.1);
+}
+
+.communitycard_heading {
+  font-size: small;
+  color: #1a1a40;
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.shadow_effect {
+  font-size: x-small;
+  padding: 0.5rem 4rem;
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
+    drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  margin-bottom: 1.4rem;
+}
+
 @media (min-width: 640px) {
   .logo {
     width: 150px;
@@ -206,11 +233,26 @@ button:hover {
   .card1 {
     margin: 3rem 0;
   }
+
   .card2 {
     margin: 3rem 0;
   }
+
   .card3 {
     margin: 3rem 0;
+  }
+
+  .communitycard_container {
+    margin: 5rem 4rem;
+  }
+
+  .communitycard_heading {
+    font-size: large;
+  }
+
+  .shadow_effect {
+    font-size: medium;
+    padding: 0.7rem 5rem;
   }
 }
 
@@ -287,5 +329,20 @@ button:hover {
     flex-direction: row;
     text-align: left;
     padding: 5rem 2rem;
+  }
+
+  .communitycard_container {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+
+  .communitycard_heading {
+    font-size: x-large;
+  }
+
+  .shadow_effect {
+    font-size: large;
+    padding: 0.7rem 5rem;
   }
 }
