@@ -23,7 +23,7 @@ button:hover {
 }
 
 .hero_container {
-  min-height: 100vh;
+  height: fit-content;
   width: 100%;
   background-image: url("./Assets/svgs/bg-hero-mobile.svg");
   background-color: aliceblue;
