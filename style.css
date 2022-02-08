@@ -296,6 +296,7 @@ ion-icon:hover {
   }
 
   .hero_container {
+    min-height: 100vh;
     background-image: url("./Assets/svgs/bg-hero-desktop.svg");
   }
 
